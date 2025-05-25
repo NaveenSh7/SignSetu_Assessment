@@ -1,0 +1,12 @@
+{
+    "tailwindCSS.experimental.classRegex": [
+  ["className\\s*=\\s*\"([^\"]*)\"", 1],  // For React className=""
+  ["className\\s*=\\s*{`([^`]*)`}", 1],  // For React template literals
+  ["tw\\('([^']*)'\\)", 1]                // For some tw usage
+],
+"files.associations": {
+  "*.js": "javascriptreact",
+  "*.jsx": "javascriptreact"
+}
+
+}
