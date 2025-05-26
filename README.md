@@ -24,7 +24,7 @@ A responsive MERN stack application that lets users search, add, edit, and delet
   * View all words
   * Edit existing words
   * Delete words
-  * 
+   
 ### 🔧 Backend (Node.js + Express + MongoDB)
 
 * `GET /api/words` – Fetch all words
@@ -39,7 +39,7 @@ A responsive MERN stack application that lets users search, add, edit, and delet
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/signsetu.git
+git clone https://github.com/NaveenSh7/SignSetu_Assessment.git
 cd signsetu
 ```
 
