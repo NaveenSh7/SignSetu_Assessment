@@ -47,12 +47,12 @@ const [ word , setWord] = useState("");
         value={word}
         onChange={(e)=>setWord(e.target.value)}
         placeholder="Search Word"
-        className="w-full bg-white px-4 py-2 text-base text-xl text-bold text-gray-800 outline-none"
+        className="w-full bg-white px-4 py-2 text-base  text-sm  md:text-xl text-bold text-gray-800 outline-none"
       /> 
       <button
                 onClick={handleFetch}
 
-        className="bg-[#00ADB5] hover:bg-[#4d9397] transition-colors text-white font-semibold px-4 rounded-r-lg"
+        className="bg-[#00ADB5] hover:bg-[#4d9397] transition-colors text-white font-semibold px-4 rounded-r-lg "
       >
         Search
       </button>
